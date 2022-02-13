@@ -15,7 +15,7 @@
  */
 
 import { TextFieldElement } from '@vaadin/vaadin-text-field/src/vaadin-text-field.js';
-
+import 'imask'
 
 /**
  * `<vcf-masked-text-field>` Extension of the Vaadin Web Component that provides a masking feature.
