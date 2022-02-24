@@ -45,7 +45,7 @@ class VcfMaskedTextField extends TextFieldElement {
           if (this.clearOnEnter) {
             this.value = "";
           }
-          this.$server.onEnterPressed(JSON.stringify({
+          this.$server._enterPressed(JSON.stringify({
             maskedValue: this.imask.value,
             unmaskedValue: this.imask.unmaskedValue
           }));
